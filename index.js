@@ -24,3 +24,6 @@ function appendKitten(name) {
   array.push(name);
   return array;
 }
+ function prependKitten(name) {
+   return [name,...kittens];
+ }
